@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+<<<<<<< HEAD
+        "start_timestamp": "2023-04-05T06:11:19.512Z",
+=======
+        "start_timestamp": "2023-04-05T05:49:50.343Z",
+>>>>>>> refs/remotes/origin/master
+        "line": 3,
+<<<<<<< HEAD
+        "name": "launch the Mynthra url",
+=======
+        "name": "Open 1clx site",
+>>>>>>> refs/remotes/origin/master
+        "description": "",
+<<<<<<< HEAD
+        "id": "mynthra-signup;launch-the-mynthra-url",
+=======
+        "id": "1clx-website-test;open-1clx-site",
+>>>>>>> refs/remotes/origin/master
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 7687077700,
+=======
+              "duration": 8154876200,
+>>>>>>> refs/remotes/origin/master
+              "status": "passed"
+            },
+<<<<<<< HEAD
+            "line": 5,
+            "name": "Enter Mynthra the Url",
+=======
+            "line": 4,
+            "name": "Open 1clx Url",
+>>>>>>> refs/remotes/origin/master
+            "match": {
+<<<<<<< HEAD
+              "location": "Maret_Step_Definition.Mynthra_Signup.enter_mynthra_the_url()"
+=======
+              "location": "Maret_Step_Definition.Open1clx.open_1clx_url()"
+>>>>>>> refs/remotes/origin/master
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 216418300,
+=======
+              "duration": 814725200,
+>>>>>>> refs/remotes/origin/master
+              "status": "passed"
+            },
+<<<<<<< HEAD
+            "line": 6,
+            "name": "close Mynthra url",
+=======
+            "line": 5,
+            "name": "Close 1clx site",
+>>>>>>> refs/remotes/origin/master
+            "match": {
+<<<<<<< HEAD
+              "location": "Maret_Step_Definition.Mynthra_Signup.close_mynthra_url()"
+=======
+              "location": "Maret_Step_Definition.Open1clx.close_1clx_site()"
+>>>>>>> refs/remotes/origin/master
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+<<<<<<< HEAD
+    "name": "Mynthra signup",
+=======
+    "name": "1clx website test",
+>>>>>>> refs/remotes/origin/master
+    "description": "",
+<<<<<<< HEAD
+    "id": "mynthra-signup",
+=======
+    "id": "1clx-website-test",
+>>>>>>> refs/remotes/origin/master
+    "keyword": "Feature",
+<<<<<<< HEAD
+    "uri": "file:src/test/resources/Feature/Mynthra.feature",
+=======
+    "uri": "file:src/test/resources/Feature/Open1clx.feature",
+>>>>>>> refs/remotes/origin/master
+    "tags": []
+  }
+]

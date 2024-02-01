@@ -1,0 +1,737 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "start_timestamp": "2023-04-06T12:45:35.157Z",
+        "line": 3,
+        "name": "Open Empower site",
+        "description": "",
+        "id": "empower-website-test;open-empower-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15240502400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Empower Url",
+            "match": {
+              "location": "Maret_Step_Definition.empowersiteTest.open_empower_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 865220200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Close Empower Url",
+            "match": {
+              "location": "Maret_Step_Definition.empowersiteTest.close_empower_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Empower website test",
+    "description": "",
+    "id": "empower-website-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/empowerTherapy.feature",
+=======
+        "start_timestamp": "2023-04-06T13:09:51.267Z",
+=======
+        "start_timestamp": "2023-04-07T05:14:59.702Z",
+        "line": 3,
+        "name": "Open Amazon site",
+        "description": "",
+        "id": "amazon-website-test;open-amazon-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6602683500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Url",
+            "match": {
+              "location": "Maret_Step_Definition.OpenAmazon.open_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 408418000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Close Url",
+            "match": {
+              "location": "Maret_Step_Definition.OpenAmazon.close_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon website test",
+    "description": "",
+    "id": "amazon-website-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Amazon.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-07T05:15:06.843Z",
+        "line": 3,
+        "name": "launch the url",
+        "description": "",
+        "id": "flipkart-signup;launch-the-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3552265000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter flipkart the Url",
+            "match": {
+              "location": "Maret_Step_Definition.Flipkart_signup.enter_flipkart_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191480100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close Flipkart url",
+            "match": {
+              "location": "Maret_Step_Definition.Flipkart_signup.close_flipkart_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart signup",
+    "description": "",
+    "id": "flipkart-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Flipkart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-07T05:15:10.621Z",
+        "line": 3,
+        "name": "I want to launch the url",
+        "description": "",
+        "id": "google-signup;i-want-to-launch-the-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2967374400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am able to enter the Url",
+            "match": {
+              "location": "Maret_Step_Definition.GoogleSignUp.i_am_able_to_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262509400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the url",
+            "match": {
+              "location": "Maret_Step_Definition.GoogleSignUp.close_the_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google signup",
+    "description": "",
+    "id": "google-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Googlesignup.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-07T05:15:13.929Z",
+=======
+        "start_timestamp": "2023-04-07T07:39:48.308Z",
+>>>>>>> refs/remotes/origin/BranchX
+        "line": 19,
+        "name": "Signup with credential",
+        "description": "",
+        "id": "signup;signup-with-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on the Signup page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I enter a FirstName \"DineshKrish\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I enter a Last Name \"Krish\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1993800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I enter the DOB \"02-07-2001\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 994100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I am able to pick the gender",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter the Citizenship \"India\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1997400,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter the Current Location \"Chennai\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter the Mobile Number \"6379732890\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter the Valid Email \"feyaj430487@wiroute.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I am able to enter the create account button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1986400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should be redirected to the dashboard page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-07T07:39:48.538Z",
+        "line": 20,
+        "name": "Signup with credential",
+        "description": "",
+        "id": "signup;signup-with-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on the Signup page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I enter a FirstName \"11111\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I enter a Last Name \"2\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I enter the DOB \"11111111\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I am able to pick the gender",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter the Citizenship \"1119\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3990000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter the Current Location \"1115\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter the Mobile Number \"DineshK\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter the Valid Email \"111285@gmail.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1997100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I am able to enter the create account button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should be redirected to the dashboard page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-07T07:39:48.604Z",
+        "line": 21,
+        "name": "Signup with credential",
+        "description": "",
+        "id": "signup;signup-with-credential;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am on the Signup page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I enter a FirstName \"\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I enter a Last Name \"\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I enter the DOB \"\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 977200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I am able to pick the gender",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1994300,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter the Citizenship \"\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter the Current Location \"\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter the Mobile Number \"\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter the Valid Email \"\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I am able to enter the create account button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should be redirected to the dashboard page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Signup",
+    "description": "As a user, I want to be able to signup for the site so that I can access the site\u0027s features.",
+    "id": "signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Maret_Signup.feature",
+    "tags": []
+<<<<<<< HEAD
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-07T05:16:01.598Z",
+        "line": 3,
+        "name": "launch the Mynthra url",
+        "description": "",
+        "id": "mynthra-signup;launch-the-mynthra-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6500501000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Mynthra the Url",
+            "match": {
+              "location": "Maret_Step_Definition.Mynthra_Signup.enter_mynthra_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 373532100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close Mynthra url",
+            "match": {
+              "location": "Maret_Step_Definition.Mynthra_Signup.close_mynthra_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mynthra signup",
+    "description": "",
+    "id": "mynthra-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Mynthra.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-07T05:16:08.548Z",
+        "line": 3,
+        "name": "Open 1clx site",
+        "description": "",
+        "id": "1clx-website-test;open-1clx-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Open 1clx Url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Close 1clx site",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "1clx website test",
+    "description": "",
+    "id": "1clx-website-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Open1clx.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-07T05:16:08.589Z",
+        "line": 3,
+        "name": "Launch the url",
+        "description": "",
+        "id": "youtube-signup;launch-the-url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7058946800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to enter the Url",
+            "match": {
+              "location": "Maret_Step_Definition.Youtube.i_want_to_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 480105600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close url",
+            "match": {
+              "location": "Maret_Step_Definition.Youtube.close_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Youtube signup",
+    "description": "",
+    "id": "youtube-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Youtube.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-07T05:16:16.148Z",
+>>>>>>> refs/remotes/origin/BranchX
+        "line": 3,
+        "name": "I want to launch the OrangeHrm  url",
+        "description": "",
+        "id": "orangehrm-signup;i-want-to-launch-the-orangehrm--url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8780783600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am able to enter the OrangeHrm Url",
+            "match": {
+              "location": "Maret_Step_Definition.OrangeHrm.i_am_able_to_enter_the_orange_hrm_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 230895900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the OrangeHrm  url",
+            "match": {
+              "location": "Maret_Step_Definition.OrangeHrm.close_the_orange_hrm_url()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHrm signup",
+    "description": "",
+    "id": "orangehrm-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/orangehrm.feature",
+>>>>>>> refs/remotes/origin/BranchX
+    "tags": []
+=======
+>>>>>>> refs/remotes/origin/BranchX
+  }
+]
